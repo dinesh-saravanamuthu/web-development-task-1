@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A clean, responsive landing page built with HTML and CSS.">
+  <title>Northline Studio | Simple ideas, thoughtfully built</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Northline Studio home">
+        <span class="brand-mark" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </span>
+        <span>northline</span>
+      </a>
+
+      <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="Open navigation">
+      <label class="menu-button" for="nav-toggle" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#work">Our work</a>
+        <a href="#approach">Approach</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cta" href="#contact">Start a project</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Independent digital studio</p>
+          <h1>Simple ideas.<br><em>Thoughtfully built.</em></h1>
+          <p class="hero-text">
+            We design clean, useful websites for small teams and growing businesses — without the unnecessary noise.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#contact">Tell us about your project <span>↗</span></a>
+            <a class="text-link" href="#work">See what we do <span>↓</span></a>
+          </div>
+          <div class="mini-note">
+            <span class="dot"></span>
+            <span>Based in Chennai · working worldwide</span>
+          </div>
+        </div>
+
+        <div class="hero-art" aria-label="Abstract design illustration">
+          <div class="sun"></div>
+          <div class="card card-one"><span>01</span><strong>Clear</strong><small>less clutter, more focus</small></div>
+          <div class="card card-two"><span>02</span><strong>Useful</strong><small>built around real people</small></div>
+          <div class="line-art"></div>
+          <div class="shape shape-a"></div>
+          <div class="shape shape-b"></div>
+          <p class="art-caption">a small studio<br>with a careful eye</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro" id="approach">
+      <div class="container intro-grid">
+        <p class="section-label">A considered approach</p>
+        <div>
+          <h2>Good digital work should feel <span>straightforward.</span></h2>
+          <p class="intro-text">
+            From the first sketch to the final detail, we keep things practical: understand the problem, make the important parts clear, and build only what adds value.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="work" id="work">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">What we do</p>
+            <h2>Small details.<br><em>Big difference.</em></h2>
+          </div>
+          <p class="section-side-copy">A flexible mix of design and front-end work for projects that need a clear point of view.</p>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card">
+            <div class="service-number">01</div>
+            <h3>Web design</h3>
+            <p>Clean page layouts, thoughtful type and a visual system that makes your message easier to follow.</p>
+            <span class="service-arrow">↗</span>
+          </article>
+          <article class="service-card featured">
+            <div class="service-number">02</div>
+            <h3>Front-end builds</h3>
+            <p>Responsive HTML and CSS that stays quick, readable and comfortable to use on any screen.</p>
+            <span class="service-arrow">↗</span>
+          </article>
+          <article class="service-card">
+            <div class="service-number">03</div>
+            <h3>Visual refresh</h3>
+            <p>A focused update for an existing site when the content is right but the experience feels dated.</p>
+            <span class="service-arrow">↗</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container contact-box">
+        <div>
+          <p class="eyebrow">Have a project in mind?</p>
+          <h2>Let’s make the first step <em>simple.</em></h2>
+        </div>
+        <a class="button button-light" href="mailto:hello@northlinestudio.example">hello@northlinestudio.example <span>↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand footer-brand" href="#top">
+          <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+          <span>northline</span>
+        </a>
+        <p class="footer-note">A small web studio for clear ideas and useful experiences.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#work">Our work</a>
+        <a href="#approach">Approach</a>
+        <a href="#contact">Contact</a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+      </div>
+      <p class="copyright">© 2026 Northline Studio</p>
+    </div>
+  </footer>
+</body>
+</html>
